@@ -1,0 +1,4 @@
+# Dependency lockfile: the application has no third-party runtime or test dependencies.
+# It uses only the Python 3.11+ standard library (urllib for the Anthropic HTTP call,
+# tomllib for configuration, fcntl for per-message locks, unittest for tests).
+# Developed and tested on Python 3.14.8, macOS. fcntl means macOS/Linux only.

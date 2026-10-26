@@ -1,0 +1,15 @@
+# Intake settings. Read at runtime from ./intake.toml. Credentials are NOT here:
+# the Anthropic key is read from the environment variable ANTHROPIC_API_KEY.
+provider = "anthropic"            # "anthropic" (live) or "mock" (canned responses, no network)
+model = "claude-sonnet-5-5"
+max_tokens = 2048
+# temperature = 0.0               # optional; omitted from the request when unset
+timeout_seconds = 60
+workers = 4                       # concurrent model calls; lower this when the shared rate limit is tight
+max_attempts = 4                  # per message, for rate-limit / overload / timeout / network errors
+backoff_seconds = 2.0             # first retry delay; doubles each attempt unless the provider sends retry-after
+api_base = "https://api.anthropic.com"
+anthropic_version = "2023-06-01"
+input_dir = "materials/requests"
+state_root = "state"              # records go to <state_root>/<provider>/
+policy_version = "northstar-intake-policy-2026-10-26"   # bump when materials/office-policy.md or intake/policy.py changes

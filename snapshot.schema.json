@@ -1,0 +1,124 @@
+{
+  "type": "object",
+  "properties": {
+    "request_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "request_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "kind": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "new",
+        "change",
+        "withdrawal",
+        "other",
+        null
+      ]
+    },
+    "requester": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "team": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "system": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "environment": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "staging",
+        "production",
+        null
+      ]
+    },
+    "permission": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "read",
+        "write",
+        "admin",
+        null
+      ]
+    },
+    "business_purpose": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "start_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "end_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "manager": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "supporting_quotes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "request_id",
+    "request_date",
+    "kind",
+    "requester",
+    "team",
+    "system",
+    "environment",
+    "permission",
+    "business_purpose",
+    "start_date",
+    "end_date",
+    "manager",
+    "supporting_quotes",
+    "issues"
+  ],
+  "additionalProperties": false
+}

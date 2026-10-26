@@ -1,0 +1,7 @@
+{
+  "export_version": "1.0",
+  "exported_at": "2026-10-22T16:00:00Z",
+  "source_channel": "chat",
+  "subject": "Billing rehearsal access",
+  "message": "For IT-008, submitted date 2026-10-22, Noah Kim from Finance is asking for new read access to Atlas in production from 2026-10-25 to 2026-10-31 (Priya Shah is my manager). I am trying to check the sample billing total vs forecasting workbook before month end rehearsal. (Correction: environment is actually staging. Previous entry used production. Our rehearsal uses sample billing dataset in staging. The rest of the request remains the same) Permission request and dates are the same. When I first wrote this, I'd copied the environment from some old note. When I was reading through rehearsal instructions I noticed the mistake."
+}

@@ -1,0 +1,7 @@
+{
+  "export_version": "1.0",
+  "exported_at": "2026-10-22T16:00:00Z",
+  "source_channel": "service_portal",
+  "subject": "Analyst workshop dataset",
+  "message": "Could you please record IT-018, submitted on 2026-10-22? I (Daniel Wright in Data Engineering) would like to request new read access to Atlas in staging for the dates 2026-10-27 through 2026-11-03. My manager is Priya Shah.\n\nI am reviewing our sample dataset we use during our weekly analyst workshop. Last time, people noticed a discrepancy between the totals of the sample and what is in the handout. I'd like to try and find the source of the difference prior to the next workshop. I'd like to update example queries (if need be) and provide a brief description to the workshop facilitator that they can give to folks who ask questions. I'm working over two workshop preparations, so that is why I'm asking for access to the following week. I will leave my notes next to the example queries so that the next person working on the workshop preparation can see what I was looking at."
+}

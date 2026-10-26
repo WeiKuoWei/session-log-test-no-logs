@@ -1,0 +1,7 @@
+{
+  "export_version": "1.0",
+  "exported_at": "2026-10-22T16:00:00Z",
+  "source_channel": "email",
+  "subject": "Exception report handover",
+  "message": "Sara Ahmed, Customer Operations. This is IT-019, submitted 2026-10-22. I need to change my current Beacon access in production from write to read from 2026-10-28 to 2026-11-04. My manager is Elena Park. I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts. However, I need to view the records that make up the exception report and to explain any unusual entries when I hand it over. I need to have read access to accomplish this for the above timeframe. I put the prior permission so that they can know exactly what has changed."
+}

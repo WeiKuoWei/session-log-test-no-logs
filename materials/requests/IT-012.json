@@ -1,0 +1,7 @@
+{
+  "export_version": "1.0",
+  "exported_at": "2026-10-22T16:00:00Z",
+  "source_channel": "service_portal",
+  "subject": "Configuration migration rehearsal",
+  "message": "Hi, Ravi Shah from Infrastructure here. I'm opening up IT-012 on 2026-10-22. Requesting new admin access to Forge in staging on 2026-10-26 - 2026-10-27. My manager is Nia Patel. We're doing a configuration migration rehearsal before planning the wider rollout. A part of our rehearsal is editing the workspace settings and ensuring a new project adopts these settings. I've scheduled a review at the end of the second day with the infrastructure team. The idea is that at the end of the review we should have detailed notes regarding settings we've changed, commands we've run and any issues that might require another rehearsal. Can you attach this request to this time slot for a temporary rehearsal window?"
+}

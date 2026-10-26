@@ -1,0 +1,7 @@
+{
+  "export_version": "1.0",
+  "exported_at": "2026-10-22T16:00:00Z",
+  "source_channel": "chat",
+  "subject": "Settlement correction window",
+  "message": "Request IT-002, 2026-10-22 - Owen Reed in Payments requesting new write access to Ledger in production. Needed during 2026-10-24 and 2026-10-25. My manager is Elena Park.\n\nWe have several settlement entries associated with the wrong reconciliation batch. Operations has prepared the replacement values. I'll need to make the corrections at the time of our scheduled maintenance and then check the totals against the settlement report. I'll be available later to review the changes with the team. It's for this particular cycle of reconciliations, so please make the temporary access during those times."
+}
